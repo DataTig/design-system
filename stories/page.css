@@ -1,0 +1,16 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+  --main-background-color: #a7d9e8;
+  --highlight-color: #74a6b5;
+  --highlight-font: arial, sans-serif;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}

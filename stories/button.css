@@ -1,0 +1,20 @@
+
+
+a.button, input.button {
+    display: inline-block;
+    background: var(--main-background-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    border: 0;
+    font-family: var(--highlight-font);
+}
+a.button:hover, a.button:focus, input.button:hover, input.button:focus {
+    text-decoration: underline;
+    color: black;
+    background: var(--highlight-color);
+}
+
+
+
