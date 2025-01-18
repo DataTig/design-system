@@ -1,0 +1,19 @@
+
+table.summary {
+    tr {
+        th {
+            font-family: var(--highlight-font);
+            border-bottom: 1px solid var(--main-background-color);
+            border-right: 1px solid var(--highlight-color);
+            padding: 5px;
+            margin: 0;
+            vertical-align: top;
+        }
+        td {
+            border-bottom: 1px solid var(--main-background-color);
+            padding: 5px;
+            margin: 0;
+        }
+    }
+}
+

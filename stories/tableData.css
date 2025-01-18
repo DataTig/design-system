@@ -1,0 +1,17 @@
+
+table.data {
+    tr {
+        th {
+            font-family: var(--highlight-font);
+            border-bottom: 1px solid var(--highlight-color);
+            padding: 5px;
+            margin: 0;
+        }
+        td {
+            border-bottom: 1px solid var(--main-background-color);
+            padding: 5px;
+            margin: 0;
+        }
+    }
+}
+
