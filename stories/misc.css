@@ -1,0 +1,86 @@
+
+
+/* From Hub */
+
+.paging {
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.filters {
+    margin: 10px 50px;
+    border: 1px solid var(--highlight-color);
+    border-radius: 3px;
+    padding: 10px;
+    .filter-group {
+        margin: 10px 0;
+        .filter-group-title {
+            font-weight: bold;
+            font-family: var(--highlight-font);
+        }
+    }
+}
+
+textarea#editor_body_textarea, textarea#raw_data_out {
+    width: 100%;
+}
+textarea#editor_body_textarea {
+    height: 300px;
+}
+textarea#raw_data_out {
+    height: 100px;
+}
+#editor_body_label {
+    font-weight: bold;
+}
+
+.field_description {
+    font-size: 80%;
+}
+
+
+ul.repositories, ul.branches {
+    li {
+        padding: 20px 0;
+        list-style-type: none;
+        margin: 0;
+        a.title {
+            display: block;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 120%;
+            margin-bottom: 5px;
+            font-family: var(--highlight-font);
+        }
+        a.title:hover, a.title:focus {
+            text-decoration: underline;
+            color: blue;
+        }
+        .title img {
+            width: 40px;
+            height: 40px;
+        }
+        .description {
+            margin: 10px 0;
+        }
+        .links {
+            text-align: right;
+        }
+    }
+}
+
+
+.links {
+    text-align: right;
+    padding: 10px 0;
+    a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+
+
+
+
