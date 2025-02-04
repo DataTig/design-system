@@ -28,9 +28,7 @@ textarea#editor_body_textarea, textarea#raw_data_out {
 textarea#editor_body_textarea {
     height: 300px;
 }
-textarea#raw_data_out {
-    height: 100px;
-}
+
 #editor_body_label {
     font-weight: bold;
 }
@@ -83,4 +81,15 @@ ul.repositories, ul.branches {
 
 
 
+/* From main tool */
 
+form#edit_form input[type="url"],
+form#edit_form input[type="text"] {
+    width: 100%;
+}
+
+
+/* From main tool and Hub */
+textarea#raw_data_out {
+    height: 100px;
+}
