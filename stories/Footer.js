@@ -6,7 +6,7 @@ export const getFooterHTML = () => {
   const html = `
         <footer>
             <div class="content">
-                Footer
+                Powered by <a href="https://www.datatig.com/">DataTig</a>.
             </div>
         </footer>
   `;

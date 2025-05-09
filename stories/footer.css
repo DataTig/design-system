@@ -4,5 +4,6 @@ footer {
     margin: 50px 0;
     font-size: 80%;
     text-align: center;
+    background: var(--footer-background);
 }
 

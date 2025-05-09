@@ -13,9 +13,9 @@ export const getPageHTML = () => {
     </head>
     <body>
     ` + getHeaderHTML() +  `
-    <div id="body" class="content">
+    <div id="body"><div class="content">
         Page Content
-    </div>
+    </div></div>
     ` + getFooterHTML() +  `
     </body>
 </html>

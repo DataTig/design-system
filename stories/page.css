@@ -1,12 +1,15 @@
+:root {
+  --main-background-color: #f4b682;
+  --highlight-color: #fba257;
+  --highlight-font: arial, sans-serif;
+  --page-background: white;
+  --footer-background: #fdf5e5;
+}
+
 html, body {
     padding: 0;
     margin: 0;
-}
-
-:root {
-  --main-background-color: #a7d9e8;
-  --highlight-color: #74a6b5;
-  --highlight-font: arial, sans-serif;
+    background: var(--footer-background);
 }
 
 .content {
@@ -14,3 +17,10 @@ html, body {
     margin: 0 auto;
     padding: 0 5px;
 }
+
+#body {
+  background: var(--page-background);
+  padding: 20px 0;
+}
+
+

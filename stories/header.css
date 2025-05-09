@@ -1,6 +1,6 @@
 
 header {
-    background: var(--main-background-color);
+    background: linear-gradient(var(--highlight-color), var(--main-background-color));
     padding: 10px 0;
     h1 {
         font-family: var(--highlight-font);
@@ -37,6 +37,7 @@ nav#menu {
     a {
         text-decoration: none;
         color: black;
+        margin-right: 10px;
     }
     a:hover, a:focus {
         text-decoration: underline;
@@ -47,8 +48,9 @@ nav#menu {
 
 nav#breadcrumbs {
     font-family: var(--highlight-font);
+    background: var(--page-background);
     padding: 10px 0;
-    margin: 0 0 10px 0;
+    margin: 0;
     border-bottom: 5px solid var(--highlight-color);
     a {
         text-decoration: none;
