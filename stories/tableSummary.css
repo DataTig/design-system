@@ -1,5 +1,6 @@
 
 table.summary {
+    background: var(--page-background);
     tr {
         th {
             font-family: var(--highlight-font);
